@@ -1,9 +1,4 @@
 🚀 Aplicação Next.js com Pipeline CI/CD
-https://github.com/bbigelli/meu-app-ci-cd/actions/workflows/ci-cd.yml/badge.svg
-https://img.shields.io/badge/Deploy-GitHub%2520Pages-blue
-https://img.shields.io/badge/Next.js-14-black
-https://img.shields.io/badge/React-18-blue
-https://img.shields.io/badge/TypeScript-5-blue
 
 Demonstração completa de uma pipeline de Integração Contínua (CI) e Entrega Contínua (CD) utilizando Next.js 14 e GitHub Actions.
 
