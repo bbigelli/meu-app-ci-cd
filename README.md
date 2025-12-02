@@ -1,26 +1,50 @@
-# 🚀 Aplicação Next.js com CI/CD
+🚀 Aplicação Next.js com Pipeline CI/CD
+https://github.com/bbigelli/meu-app-ci-cd/actions/workflows/ci-cd.yml/badge.svg
+https://img.shields.io/badge/Deploy-GitHub%2520Pages-blue
+https://img.shields.io/badge/Next.js-14-black
+https://img.shields.io/badge/React-18-blue
+https://img.shields.io/badge/TypeScript-5-blue
 
-Demonstração de uma pipeline completa de Integração Contínua (CI) e Entrega Contínua (CD) utilizando Next.js e GitHub Actions.
+Demonstração completa de uma pipeline de Integração Contínua (CI) e Entrega Contínua (CD) utilizando Next.js 14 e GitHub Actions.
 
-![CI/CD Pipeline](https://github.com/seu-usuario/meu-app-ci-cd/actions/workflows/ci-cd.yml/badge.svg)
-![GitHub Pages](https://img.shields.io/badge/deploy-GitHub%20Pages-blue)
+✨ Demonstração
+🌐 Aplicação Online: https://bbigelli.github.io/meu-app-ci-cd/
 
-## ✨ Funcionalidades
+📁 Repositório: https://github.com/bbigelli/meu-app-ci-cd
 
-- ✅ Interface responsiva com Tailwind CSS
-- ✅ Componentes interativos (Contador, Lista de Tarefas)
-- ✅ Testes unitários com Jest
-- ✅ Validação de código com ESLint
-- ✅ Pipeline CI/CD automatizada
-- ✅ Deploy automático no GitHub Pages
+⚡ Pipeline CI/CD: Ver Actions
 
-## 🛠 Tecnologias
+🎯 Objetivo
+Este projeto tem como objetivo demonstrar na prática uma implementação completa de CI/CD para uma aplicação front-end, incluindo:
 
-- **Next.js 14** - Framework React
-- **TypeScript** - Tipagem estática
-- **Tailwind CSS** - Estilização
-- **Jest** - Testes unitários
-- **GitHub Actions** - CI/CD
-- **React Icons** - Ícones
+✅ Validação automática de código (ESLint)
 
-## 📁 Estrutura do Projeto
+✅ Testes automatizados (Jest)
+
+✅ Build automatizado (Next.js)
+
+✅ Deploy contínuo (GitHub Pages)
+
+✅ Pipeline completa com GitHub Actions
+
+📋 Funcionalidades da Aplicação
+🏠 Página Inicial - Apresentação do projeto e status da pipeline
+
+📊 Contador Interativo - Componente com estado (useState)
+
+✅ Lista de Tarefas - CRUD completo com React
+
+ℹ️ Página Sobre - Explicação detalhada do CI/CD
+
+📞 Página de Contato - Formulário funcional
+
+🛠 Tecnologias
+Tecnologia	Finalidade	Versão
+Next.js	Framework React	14.0.4
+React	Biblioteca UI	18.2.0
+TypeScript	Tipagem estática	5.3.3
+Tailwind CSS	Estilização	3.3.6
+Jest	Testes unitários	29.7.0
+ESLint	Análise de código	8.55.0
+GitHub Actions	CI/CD Pipeline	-
+React Icons	Ícones	4.12.0
