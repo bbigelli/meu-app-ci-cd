@@ -1,14 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Desative lint durante desenvolvimento
+  // Configuração para desenvolvimento - NÃO use output: 'export'
+  reactStrictMode: true,
+  swcMinify: true,
+  
+  // Desative verificações durante desenvolvimento
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Não use output: 'export' em desenvolvimento
-  // output: 'export', // APENAS para produção
+  
+  // NÃO use output: 'export' aqui - será configurado no workflow
+  // output: 'export',
+  // images: {
+  //   unoptimized: true,
+  // },
 }
 
 module.exports = nextConfig
